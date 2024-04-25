@@ -1,22 +1,20 @@
 // Student.jsx
 
-import './styles/student.css'
-import students from '../data/data.json'
-
-let data = students;
-console.log(data)
+import './styles/student.css';
+import students from '../data/data.json';
+console.log(students)
 
 function Student() {
+  return (
+    <div className='student-card'>
+      {students.map(student => (
+        <div className='student-img' key={student.id}>
+          <img src={student.profilePhoto} alt={student.names.preferredName} />
+          <h3 className='student-name'>{student.names.preferredName} {student.names.surname}</h3>
+        </div>
+      ))}
+    </div>
+  );
+}
 
-    return (
-      <div className='student-container'>
-        <img src="students.profilePhoto" alt="students.names.perferredName" />
-        
-        
-       
-        {/* <p className="cohort-term" id="cohort-term">{array of terms}</p> */}
-      </div>
-    );
-  }
-  
-  export default Student;
+export default Student;
