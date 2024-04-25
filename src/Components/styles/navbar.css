@@ -1,0 +1,14 @@
+/* navbar.css */
+
+.nav-header {
+    display: grid;
+    margin-top: 0;
+    background-color: #5C946F;
+    color: white;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-column: 1 / 3;
+}
+

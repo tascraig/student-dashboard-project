@@ -1,0 +1,13 @@
+/* cohortlist.css */
+
+.cohortlist-container {
+    margin-top: 20px;
+    font-weight: bolder;
+    border-bottom: 4px solid #5C946F;
+    text-align: left;
+    width: 90%;
+}
+
+.cohort-selectall {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,12 @@
+/* cohort.css */
+
+.cohort-container {
+    padding: 20px;
+    border: 1px solid black;
+    margin-left: 20px;
+    width: 90%;
+}
+
+.cohort-header {
+    text-align: center;
+}

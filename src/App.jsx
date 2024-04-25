@@ -1,8 +1,19 @@
+// App.jsx
+
+import './index.css';
+import NavBar from './Components/NavBar';
+import Cohort from './Components/Cohort';
+import StudentList from './Components/studentlist';
+
 
 function App() {
   return (
-    <div>
-      <h1>Student Dashboard</h1>
+    <div className='app-container'>
+      <NavBar />
+      <Cohort />
+      <StudentList />
+
+
     </div>
   );
 }
