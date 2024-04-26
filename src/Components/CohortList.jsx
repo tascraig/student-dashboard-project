@@ -1,16 +1,16 @@
-// CohortList.jsx
+/* CohortList.jsx */
 
-import './styles/cohortlist.css'
+import './styles/cohortlist.css';
 
-
-
-function CohortList() {
+function CohortList({ cohortCodes }) {
     return (
-      <div className='cohortlist-container'>
-        <p className='cohort-selectall'>All Students</p>
-        {/* <p className="cohort-term" id="cohort-term">{array of terms}</p> */}
-      </div>
+        <div className='cohortlist-container'>
+            <p className='cohort-selectall'>All Students</p>
+            {cohortCodes.map((code, index) => (
+                <p key={index} className='cohort-list'>{code}</p>
+            ))}
+        </div>
     );
-  }
-  
-  export default CohortList;
+}
+
+export default CohortList;

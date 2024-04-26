@@ -3,11 +3,24 @@
 .cohortlist-container {
     margin-top: 20px;
     font-weight: bolder;
-    border-bottom: 4px solid #5C946F;
     text-align: left;
+    text-indent: 10px;
     width: 90%;
+    font-size: 18px;
+
 }
 
 .cohort-selectall {
+    margin-top: 25px;
+    border-bottom: 2px solid #5C946F;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.cohort-list {
+    margin-top: 20px;
     margin-bottom: 20px;
+    border-bottom: 2px solid #5C946F;
+    padding-bottom: 20px;
+    cursor: pointer;
 }

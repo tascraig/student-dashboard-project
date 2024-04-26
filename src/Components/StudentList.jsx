@@ -7,7 +7,8 @@ function StudentList() {
 
     return (
       <div className='studentlist-container'>
-        <h3>Student List</h3>
+        <h3 className='studentlist-selector'>All Students</h3>
+        <p className='studentlist-total'>Total Students:{}</p>
         <Student />
       </div>
     );

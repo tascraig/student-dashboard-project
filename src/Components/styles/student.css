@@ -1,0 +1,39 @@
+/* student.css */
+
+.student-card {
+    display: grid;
+    margin-top: 20px;
+    
+}
+
+.student-info {
+    display: grid;
+    padding: 25px;
+    grid-template-columns: auto 1fr;
+    column-gap: 20px;
+    border: 2px solid #5C946F;
+    margin-bottom: 20px;
+}
+
+
+.student-img img {
+    width: 100px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.student-details {
+    margin-top: 20px;
+    grid-column: 2 / 3;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.student-dob span {
+    color: #5C946F;
+}
+
+.student-showmore {
+    color: #5C946F;
+}
+
