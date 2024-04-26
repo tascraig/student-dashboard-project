@@ -1,6 +1,6 @@
 
 import './styles/studentlist.css';
-import Student from './student';
+import Student from './Student';
 
 function StudentList() {
 
