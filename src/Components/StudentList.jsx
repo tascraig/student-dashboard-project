@@ -1,4 +1,3 @@
-// StudentList.jsx
 
 import './styles/studentlist.css';
 import Student from './student';

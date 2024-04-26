@@ -3,8 +3,7 @@
 import './index.css';
 import NavBar from './Components/NavBar';
 import Cohort from './Components/Cohort';
-import StudentList from './Components/studentlist';
-
+import StudentList from './Components/StudentList.jsx'
 
 function App() {
   return (
@@ -19,3 +18,5 @@ function App() {
 }
 
 export default App;
+
+
